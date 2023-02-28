@@ -1,0 +1,131 @@
+*{
+    margin: auto;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#F6F8F9;
+}
+
+header{
+    background-color: white;
+}
+
+h1{
+    display: inline-block;
+    font-family: 'Arimo', sans-serif;
+    font-size: 4rem;
+    
+}
+
+.The-Logo{
+    padding: 10px;
+}
+ /* Main */
+.container{
+    margin-top: 50px;
+    width: 70%;
+    
+}
+
+.first{       /*Container*/
+    background-color: white;
+    height: 40px;
+    padding: 6px;
+}
+
+
+.second{     /*Container*/      
+    background-color: white;
+    height: 500px;
+    margin-top: 2px;
+}
+
+.button{
+    padding: 7px;
+    height: 32px;
+    
+}
+
+.button.blue{
+    background-color: #46ADF1;
+    border-radius: 10%;
+    color: white;
+    width: 70px;
+}
+
+.button.normal{
+    width: 100px;
+    color: darkgray;
+}
+
+/* UnOrdered List */
+ul{
+    list-style-type: none;
+    
+    
+}
+
+li{
+    margin: 10px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+ul,h2{
+    font-family: 'Arimo', sans-serif;
+}
+
+.box{
+    border-radius: 100%;
+    display: inline-block;
+    width: 25px;
+}
+
+.check{
+    color: lightgreen;
+    border: 1px  solid lightgreen;
+}
+
+.cross{
+    color: crimson;
+    border: 1px solid crimson;
+}
+
+/* Buttons */
+.btn{
+    display: inline-block;
+    border-radius: 15%;
+}
+
+.edit{
+    background-color:#46ADF1;
+}
+
+.purple{
+    background-color: #9C72E4;
+}
+
+.darkgreen{
+    background-color: #63BFA8;
+}
+
+.orange{
+    background-color: #F19D32;
+}
+
+.pink{
+    background-color: #D762A0;
+}
+
+.green{
+    background-color: #AFC725;
+}
+
+/* Contain position */
+.contain{
+    margin-left: 90px;
+}
+
