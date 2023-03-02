@@ -12,16 +12,17 @@ header{
 }
 
 h1{
-    display: inline-block;
     font-family: 'Arimo', sans-serif;
-    font-size: 4rem;
-    
+    vertical-align: 0.5em;
+    display: inline-block;
 }
 
 .The-Logo{
     padding: 10px;
+    
 }
- /* Main */
+ 
+/* Main */
 .container{
     margin-top: 50px;
     width: 70%;
@@ -32,13 +33,15 @@ h1{
     background-color: white;
     height: 40px;
     padding: 6px;
+    border-radius: 0.5em 0.5em 0 0 ;
 }
 
 
 .second{     /*Container*/      
     background-color: white;
-    height: 500px;
+    height: 534px;
     margin-top: 2px;
+    border-radius: 0 0 0.5em 0.5em;
 }
 
 .button{
@@ -78,7 +81,7 @@ ul,h2{
     font-family: 'Arimo', sans-serif;
 }
 
-.box{
+.boxes{
     border-radius: 100%;
     display: inline-block;
     width: 25px;
@@ -87,17 +90,20 @@ ul,h2{
 .check{
     color: lightgreen;
     border: 1px  solid lightgreen;
+    text-align: center;
 }
 
 .cross{
     color: crimson;
     border: 1px solid crimson;
+    text-align: center;
 }
 
 /* Buttons */
 .btn{
     display: inline-block;
-    border-radius: 15%;
+    border-radius: 5px;
+    padding: .5em .5em;
 }
 
 .edit{
